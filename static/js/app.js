@@ -74,4 +74,8 @@ function buildDemo(sample) {
         });
     });
 };
+function optionChanged(sample) {
+    buildDemo(sample);
+    buildCharts(sample);
+};
 init();
